@@ -1,3 +1,5 @@
 .vscode
 .venv
 CH03_Original_Images/
+build/
+opencv/

@@ -1,9 +1,0 @@
-# Target labels
- Main
- opencv_gapi
- Sample
-# Source files and their labels
-/home/felipe/Desktop/graduation/2025.2/PDI/opencv/modules/gapi/samples/onevpl_source_to_bgr_conv.cpp
- Main
- opencv_gapi
- Sample
