@@ -1,0 +1,9 @@
+# Target labels
+ Main
+ opencv_gapi
+ Sample
+# Source files and their labels
+/home/felipe/Desktop/graduation/2025.2/PDI/opencv/modules/gapi/samples/onevpl_infer_with_advanced_device_selection.cpp
+ Main
+ opencv_gapi
+ Sample
