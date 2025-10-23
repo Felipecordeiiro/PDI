@@ -10,7 +10,8 @@
 #include <opencv2/opencv.hpp> 
 
 void extrair_planos_de_bits_cpp(const std::string& caminho_entrada, const std::string& diretorio_saida) {
-    // No C++, não há uma função padrão para criar diretórios, mas podemos salvar na pasta atual.
+    // Em C++, para garantir que um diretório existe e, caso não, cria-ló torna uma tarefa desnecessária, portanto,
+    // Para que esse código funcione corretamente, garanta que já existe o caminho da imagem e a pasta para salvar as imagens.
     std::cout << "--- Iniciando processamento em C++ ---" << std::endl;
     std::cout << " Verificando o caminho " << caminho_entrada << std::endl;
 
@@ -56,7 +57,8 @@ void extrair_planos_de_bits_cpp(const std::string& caminho_entrada, const std::s
 }
 
 int main() {
-    // Certifique-se de que o diretório 'planos_de_bits_cpp' existe ou mude para um nome de sua escolha
+    // Como essa tarefa foi realizada na minha máquina pessoal o caminho colocado na função reflete um caminho PESSOAL
+    // Portando, quando for testar esse código, por favor substitua pelo caminho correto.
     extrair_planos_de_bits_cpp("/home/felipe/Desktop/graduation/2025.2/PDI/CH03_Original_Images/Fig0314(a)(100-dollars).tif", "atvds/1_2/3.14/c++/planos_de_bits_cpp");
     return 0;
 }
