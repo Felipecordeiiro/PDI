@@ -59,6 +59,6 @@ void extrair_planos_de_bits_cpp(const std::string& caminho_entrada, const std::s
 int main() {
     // Como essa tarefa foi realizada na minha máquina pessoal o caminho colocado na função reflete um caminho PESSOAL
     // Portando, quando for testar esse código, por favor substitua pelo caminho correto.
-    extrair_planos_de_bits_cpp("/home/felipe/Desktop/graduation/2025.2/PDI/CH03_Original_Images/Fig0314(a)(100-dollars).tif", "atvds/1_2/3.14/c++/planos_de_bits_cpp");
+    extrair_planos_de_bits_cpp("/home/felipe/Desktop/graduation/2025.2/PDI/atvds/1_2/images/Fig0314(a)(100-dollars).tif", "atvds/1_2/3.14/c++/planos_de_bits_cpp");
     return 0;
 }
